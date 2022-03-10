@@ -148,15 +148,15 @@ module.exports = Ramdani = async (Ramdani, mek) => {
 			mess = {
 				daftar: `maaf Kamu Belum Terdaftar Silahkan Daftar Ketik .daftar`,
 				wait: 'Tunggu sebentar dekks....',
-				banned: 'Luh dah di banned awoakawok, chat owner untuk di ruqyah',
-				success: 'Nih deks jan lupa subscribe https://youtube.com/channel/UCB157jomCne961WzYHpG4gg',
+				banned: 'Luh dah di banned awoakawok, chat owner untuk di ampunkan',
+				success: 'Nih deks jan lupa subscribe https://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRg',
 				error: {
 			    stick: 'Gagal, terjadi kesalahan saat mengkonversi gambar ke sticker',
 			    link: 'Luh ngasih link apaan tolol'
 				},
 				only: {
 					group: 'FITUR INI HANYA BISA DIGUNAKAN UNTUK GRUP!!! ❌',
-					premium: 'LUH BUKAN USER PREMIUM, CHAT OWNER UNTUK DI RUQYAH!!!',
+					premium: 'LUH BUKAN USER PREMIUM, CHAT OWNER UNTUK BELI PREMIUM!!!',
 					ownerG: 'FITUR INI HANYA BISA DIGUNAKAN OLEH OWNER GRUP!!! ❌',
 					ownerB: 'FITUR INI HANYA BISA DIGUNAKAN OLEH OWNER BOT!!! ❌',
 					admin: 'FITUR INI HANYA BISA DIGUNAKAN OLEH ADMIN GRUP!!! ❌',
@@ -286,8 +286,8 @@ Ramdani.sendMessage(from, teks, text, {quoted: mek, contextInfo: {"forwardingSco
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official \nRp. 999.999.999`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Me-Bot \nRp. 999.999.999`, 
+                            orderTitle: `© Creator By Me-Bot`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -298,8 +298,8 @@ const fhidetag = {key : {fromMe:false,
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Me-Bot`, 
+                            orderTitle: `© Creator By Me-Bot`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -310,8 +310,8 @@ const ftrolMENU = {key : {fromMe:false,
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Me-Bot`, 
+                            orderTitle: `© Creator By Me-Bot`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -525,22 +525,22 @@ if (!isOwner && !mek.key.fromMe) return
 }
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = 'Good night🌃'
+var ucapanWaktu = 'Good Night Sayang🌃'
  }
  if(time2 < "19:00:00"){
-var ucapanWaktu = 'Good afternoon🌉'
+var ucapanWaktu = 'Good Afternoon Sayang🌉'
  }
  if(time2 < "18:00:00"){
-var ucapanWaktu = 'Good afternoon🌆'
+var ucapanWaktu = 'Good Afternoon Sayang🌆'
  }
  if(time2 < "15:00:00"){
-var ucapanWaktu = 'Good afternoon🌇'
+var ucapanWaktu = 'Good Afternoon Sayang🌇'
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = 'Good morning🌄'
+var ucapanWaktu = 'Good Morning Sayang🌄'
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = 'Good Night🌃'
+var ucapanWaktu = 'Good Night Sayang🌃'
  } 
 const froxx = {
 	 key: { 
@@ -550,14 +550,14 @@ const froxx = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `© Creator Ramdani Official`,
-                 "title": `© Creator Ramdani Official`,
+                 "text": `© Creator Me-Bot`,
+                 "title": `© Creator Me-Bot`,
                  'jpegThumbnail': fs.readFileSync("./media/foto/thumb.jpg"),
                         }
 	                  } 
                      }
 runi = process.uptime() 
-           Ramdani.setStatus(`Ramdani botz Aktif Selama ${(runi)} `).catch((_)=>_);
+           Ramdani.setStatus(`Me-Bot Aktif Selama ${(runi)} `).catch((_)=>_);
           settingstatus = new Date() * 1;
 const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
 				let d = new Date
@@ -584,11 +584,11 @@ switch(command) {
 ////////////sendButImage(from, menu,`ᴍʏ ɢɪᴛʜᴜʙ : https://github.com/Ramdaniofficial
 /////////////ᴍʏ ʜᴇʀᴏᴋᴜ : https://heroku.com/Ramdaniofficial
 /////////////ᴍʏ ᴡᴇʙ : https://ramdaniofficial.blogspot.com/?m=1
-////////////////ᴍʏ ʏᴏᴜᴛᴜʙᴇ : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg
-///////////////ᴍʏ ɪɴsᴛᴀɢʀᴀᴍ : https://www.instagram.com/muhammadramdani196453
+////////////////ᴍʏ ʏᴏᴜᴛᴜʙᴇ : https://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRg
+///////////////ᴍʏ ɪɴsᴛᴀɢʀᴀᴍ : https://www.instagram.com/pecinta_habaib8/
 //////////////ᴍʏ ᴛᴡɪᴛᴛᴇʀ : https://mobile.twitter.com/Muhamma56633691
 /////////////ᴍʏ ғᴀᴄᴇʙᴏᴏᴋ : https://www.facebook.com/profile.php?id=100055274594084
-///////////ᴍʏ sᴀᴡᴇʀɪᴀ : https://saweria.co/ramdaniofficial
+///////////ᴍʏ sᴀᴡᴇʀɪᴀ : https://saweria.co/AbangYT
 ////////////ᴍʏ ʟɪɴᴋᴛʀᴇᴇ : https://linktr.ee/ramdaniofficial\n${jam} ${hari} ${tanggal} ${bulan} ${tahun}\n© Creator By Ramdani Official`, thumb, [
     //////////////////     {buttonId: `${prefix}${prefix}c`, buttonText: {displayText: `SIMPLE MENU`, }, type: 1, },
        /////////////////////     {buttonId: `${prefix}${prefix}donate`, buttonText: { displayText: `DONATE`, }, type: 1, },
@@ -602,11 +602,11 @@ case 'danz':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Me-Bot',
  description: `Hai Kak @${sender.split('@')[0]}👋, Silahkan Pilih Menunya Disini\nJangan Spam Ya Kak, Kasih Jeda 5 Detik!!!`,
  sections: [
                      {
-                      "title": `Jangan Lupa Donasi Tod`,
+                      "title": `Jangan Lupa Donasi Bro`,
  rows: [
                             {                         
                               "title": "[📝]Rules bot",
@@ -730,11 +730,11 @@ case 'sm':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Me-Bot',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Command nya disini`,
  sections: [
                      {
-                      "title": `Jangan Lupa Donasi Tod`,
+                      "title": `Jangan Lupa Donasi bro`,
  rows: [
                            {
                         "title": "TOP UP GAME",
@@ -777,11 +777,11 @@ case 'topupgame':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Me-Bot',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Game nya disini`,
  sections: [
                      {
-                      "title": `Jangan Lupa Donasi Tod`,
+                      "title": `Jangan Lupa Donasi Bro`,
  rows: [
                            {
                         "title": "MOBILE LEGENDS",
@@ -814,11 +814,11 @@ case 'topupsaldo':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Me-Bot',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Aplikasi nya disini`,
  sections: [
                      {
-                      "title": `Jangan Lupa Donasi Tod`,
+                      "title": `Jangan Lupa Donasi Bro`,
  rows: [
                            {
                         "title": "GOPAY",
@@ -1130,6 +1130,9 @@ break
                 case 'bebantot':
                 reply(`*JANGAN GITU LU*\n*SESAMA BEBAN HARUS SALING*\n*HINA*`)
                 break
+                case 'wan':
+                reply(`ADA APA MANGGIL OWNER GW?`)
+                break
                 case 'berkat':
                 reply(`*ANJG CUMA MAU BERKAT NYA:V*`)
                 break
@@ -1166,113 +1169,65 @@ case 'sewabot':
 if (isBanned) return reply(mess.banned)
 reply(`━━━━━『 *LIST SEWA BOT* 』━━━━━
 
-❏ PERHARI : 1 HARI 2K, 5 HARI 10K 
-❏ PERMINGGU : 1MIN. 14K, 2MIN. 28K, 3MIN. 60K,
-❏ PERBULAN : 1B. 30K, 2B. 70K, 3B. 140K,
-❏ PERTAHUN : 1THN. 350K, 2THN. 700K,
-❏ PERMANEN : TIMDAK TERSEDIA!
+❏ TRIAL : 5 HARI
+❏ PERMANEN : 5k (hanya bisa pulsa)
 *minat chat owner*`)
 break
 case 'buypremium':
 if (isBanned) return reply(mess.banned)
 reply(`━━━━━『 *LIST PREMIUM* 』━━━━━
 
-❏ PERHARI : 2H. 1K, 5H. 4K, 7H 6K,
-❏ PERMINGGU : 1MIN. 6K, 2MIN. 10K, 3MIN. 15K,
-❏ PERBULAN : 1B. 18K, 2B. 28K, 3B. 38K,
-❏ PERTAHUN : 1THN. 100K
-❏ PERMANEN : 150K
+❏ 1BULAN : RP 5.000
+❏ PERMANEN : *TIMDAK BISA*
 *minat chat owner*`)
-break
-//buysc
-case 'buysc':
-reply(`_*silahkan hubungi owner jika ingin membeli script bot*_\n_*ketik ${prefix}owner untuk mendapatkan nomor owner*_`)
 break
 case 'topupml':
 reply(`*💎DIAMOND ML💎*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-39    💎= Rp.9.000
-65    💎= Rp.14.500
-92    💎= Rp.20.000
-133  💎= Rp.29.000
-266  💎= Rp.58.000
-400  💎= Rp.86.000
-534  💎= Rp.115.000
-670  💎= Rp.144.000
-709  💎= Rp.153.000
-735  💎= Rp.158.500
-803  💎= Rp.170.000
-936  💎= Rp.200.000
-1070💎=Rp.229.000
-1342💎=Rp.285.000
-1434💎=Rp.305.000
-1742💎=Rp.370.000
-2700💎=Rp.570.000
+_tidak tersedia, yang mau taro jualan nya chat owner bot_
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
+ *_© Creator By Me-Bot_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupff':
 reply(`*💎DIAMOND FREE FIRE💎*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-20    💎 3.000
-50    💎 7.000
-70    💎 9.500
-100  💎 13.500
-140  💎 18.500
-210  💎 27.500
-280  💎 37.000
-355  💎 46.000
-425  💎 55.000
-500  💎 65.000
-720  💎 92.500
-860  💎 111.000
-1000💎 129.500
-1075💎 138.000
-1440💎 185.000
-2000💎 250.000
-2720💎 342.500
-3000💎 380.000
-4000💎 500.000
-MM : 28.000
-MB  : 140.000
+_tidak tersedia, yang mau taro jualan nya chat owner bot_
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator by Ramdani Official_*    
+ *_©Creator by Me-Bot_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topuppubg':
 reply(`➖➖➖➖➖➖➖➖➖➖➖
 
-- 🎟️60 = Rp14.000
-- 🎟️120 = Rp28.000
-- 🎟️240 = Rp56.000
+_tidak tersedia, yang mau taro jualan nya chat owner bot_
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator By Ramdani Official_*    
+ *_©Creator By Me-Bot_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupb':
 reply(`*🎟️POINT BLANK🎟️*
 ➖➖➖➖➖➖➖➖➖➖➖
 
-_tidak tersedia, ke Indomaret Sono_
+_tidak tersedia, yang mau taro jualan nya chat owner bot_
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
+ *_© Creator By Me-Bot_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupgopay':
-reply(`_chat owner_`)
+reply(`_ke indomaret sono_`)
 break
 case 'topupdana':
-reply(`_chat owner_`)
+reply(`_ke indomaret sono_`)
 break
 case 'topupovo':
-reply(`_chat owner_`)
+reply(`_ke indomaret sono_`)
 break
 case 'topuppulsa':
 reply(`_beli di warung sono_`)
@@ -1281,19 +1236,19 @@ break
 case 'jadibot':
 case 'jadibotwa':
 case 'carajadibot':
-reply(`*Jika ingin menjadi bot silahkan kunjungi channel YouTube Ramdani Official*\n*link* : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+reply(`*YNTKTS`)
 break
 //SOSMET
 //YOUTUBE
 case 'youtube':
 case 'ytb':
-reply(`*nih channel youtube creator, jan lupa subscribe ya*\nhttps://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+reply(`*nih channel youtube creator, jan lupa subscribe ya*\nhttps://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRg`)
 break
 //INSTAGRAM
 case 'intagram':
 case 'ig':
 case 'ige':
-reply(`*nih Instagram creator, jan lupa follow ya*\nhttps://www.instagram.com/muhammadramdani196453`)
+reply(`*nih Instagram creator, jan lupa follow ya*\nhttps://www.instagram.com/pecinta_habaib8/`)
 break
 //OWNER/CREATOR
 //OWNER
@@ -1318,9 +1273,9 @@ case 'pembuatbot':
             case 'powered':
 const vcard2 = 'BEGIN:VCARD2\n'  
             + 'VERSION:3.0\n'  
-            + `FN: Ramdani Official\n`  
+            + `FN: Me-Bot\n`  
             + `ORG:sibuk;\n` 
-            + `TEL;type=CELL;type=VOICE;waid=6289512545999:+6289512545999\n`  
+            + `TEL;type=CELL;type=VOICE;waid=6283804343232:+6283804343232\n`  
             + 'END:VCARD2'  
   Ramdani.sendMessage(from, {displayname: "Jeff", vcard2: vcard2}, MessageType.contact, { quoted: mek})
 titit = 'Hallo kak, itu pembuat ini, jangan di ganggu ya\nbtw mau tau soal apa tentang pembuat bot?'
@@ -1334,11 +1289,11 @@ case 'thanksto':
 case 'tqto':
 case 'tqtq':
 reply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
-• ARUL (MY GURU)
-• MHANKBARBAR (MASTAH)
-• APRILIA
+• Me-Bot (ME)
+• Ramdani Official
 • ZEEONE OFC
+• MHANKBARBAR
+• APRILIA
 • DIKA ARDNT
 • RIMURUBOTZ
 • KAHFZXZY
@@ -1648,10 +1603,10 @@ case 'sc':
 case 'script':
 if (isBanned) return reply(mess.banned)
 reply(`*⌜ Script Bot ⌟* 
-• SC ORI : Ramdani Official
-• RECODE : Ramdani Official
+• SC ORI : Bang Ramdani
+• RECODE : Me-Bot
 • LINK DOWN VIA GIT : https://github.com/Ramdaniofficial/v13
-• LINK DOWN VIA YT : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+• LINK DOWN VIA YT : https://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRg`)
 break
 //ASUPAN MENU
 case 'asupangeayubi':
@@ -1717,7 +1672,7 @@ case 'asupangeayubi':
 //TEXT PRO MENU
 case 'blackpink':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/blackpink?text=${query}&apikey=${AlphaBot}`)
@@ -1725,7 +1680,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'pipe':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/water_pipe?text=${query}&apikey=${AlphaBot}`)
@@ -1733,7 +1688,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'heloween':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween?text=${query}&apikey=${AlphaBot}`)
@@ -1741,7 +1696,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'heloween2':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/halloween2?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1749,7 +1704,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'horor':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/horror?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1757,7 +1712,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'nulis':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/sketch?text=${query}&apikey=${AlphaBot}`)
@@ -1765,7 +1720,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'sirkuit':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/sircuit?text=${query}&apikey=${AlphaBot}`)
@@ -1773,7 +1728,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'discovery':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/discovery?text=${query}&apikey=${AlphaBot}`)
@@ -1781,7 +1736,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'fiction':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/fiction?text=${query}&apikey=${AlphaBot}`)
@@ -1789,7 +1744,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case '8bit':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/game8bit?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1797,7 +1752,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'demon':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/demon?text=${query}&apikey=${AlphaBot}`)
@@ -1805,7 +1760,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'transformer':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/transformer?text=${query}&apikey=${AlphaBot}`)
@@ -1813,7 +1768,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'berry':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/berry?text=${query}&apikey=${AlphaBot}`)
@@ -1821,7 +1776,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'leyered':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/layered?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1829,7 +1784,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'thunder':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/thunder?text=${query}&apikey=${AlphaBot}`)
@@ -1837,7 +1792,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'magma':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/magma?text=${query}&apikey=${AlphaBot}`)
@@ -1845,7 +1800,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'stone':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/3dstone?text=${query}&apikey=${AlphaBot}`)
@@ -1853,7 +1808,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'neon3':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/neon?text=${query}&apikey=${AlphaBot}`)
@@ -1861,7 +1816,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'glitch':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glitch?text=${query}&apikey=${AlphaBot}`)
@@ -1869,7 +1824,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'glitch2':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glitch2?text=${query}&text2=${query}&apikey=${AlphaBot}`)
@@ -1877,7 +1832,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'herrypoter':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/harry_potter?text=${query}&apikey=${AlphaBot}`)
@@ -1885,7 +1840,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'embosed':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/embossed?text=${query}&apikey=${AlphaBot}`)
@@ -1893,7 +1848,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'broken':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/broken?text=${query}&apikey=${AlphaBot}`)
@@ -1901,7 +1856,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'nulis2':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/papercut?text=${query}&apikey=${AlphaBot}`)
@@ -1909,7 +1864,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'gradient':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/gradient?text=${query}&apikey=${AlphaBot}`)
@@ -1917,7 +1872,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'glossy':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/glossy?text=${query}&apikey=${AlphaBot}`)
@@ -1925,7 +1880,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'watercolor':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/watercolor?text=${query}&apikey=${AlphaBot}`)
@@ -1933,7 +1888,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'multicolor':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/multicolor?text=${query}&apikey=${AlphaBot}`)
@@ -1941,7 +1896,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'neondevil':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/neon_devil?text=${query}&apikey=${AlphaBot}`)
@@ -1949,7 +1904,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'underwater':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/underwater?text=${query}&apikey=${AlphaBot}`)
@@ -1957,7 +1912,7 @@ Ramdani.sendMessage(from, bf, image, { quoted: froxx, caption: 'Logo maker' })
 break
 case 'bear':
 if (isBanned) return reply(mess.banned)
-if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} RamdaniCode`)
+if (args.length < 1) return reply(`Nama yang mau di tulis?\nContoh: ${prefix + command} Me-BotCode`)
 reply(mess.wait)
 query = args.join (" ")
 bf = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/bear?text=${query}&apikey=${AlphaBot}`)
@@ -2266,7 +2221,7 @@ case 'bahasa':
 					ranm = getRandom('.mp3')
 					rano = getRandom('.ogg')
 					dtt.length > 500
-					? reply('Textnya kebanyakan setan!! 😤')
+					? reply('Textnya kebanyakan cok! 😤')
 					: gtts.save(ranm, dtt, function() {
 						exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
 							fs.unlinkSync(ranm)
@@ -2280,7 +2235,7 @@ case 'bahasa':
 //STICKER MENU
            case 'ttp':  
            if (isBanned) return reply(mess.banned)
-                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}ttp Ramdani botz Whatsapp`)
+                    if (!c) return reply(`Teks Nya Mana Kak?\nContoh :\n${prefix}ttp Me-Bot Whatsapp`)
                     anu1 = await getBuffer(`https://api.xteam.xyz/ttp?file&text=${c}`)
                     Ramdani.sendMessage(from, anu1, image, {quoted: mek, caption : `${prefix}sticker`})
                     break
@@ -2836,7 +2791,7 @@ case 'bc':
              for (let _ of anu) {
              Ramdani.sendMessage(_.jid, 
 			{"contentText": `*「 BROADCAST ${namabot} 」*\n\n${body.slice(4)}`,
-			"footerText": '© Creator By Ramdani Official',
+			"footerText": '© Creator By Me-Bot',
 			"buttons": [
 			{"buttonId": `${prefix}simpelmenu`,
 			"buttonText": {"displayText": "Simple Menu"
@@ -2911,7 +2866,7 @@ var intro = `ᴡᴇʟᴄᴏᴍᴇ
 ┌ > ɢᴇɴᴅᴇʀ : 
 ┌ > sᴛᴀᴛᴜs :
 ᴅᴏɴᴛ ғᴏʀɢᴇᴛ ᴛᴏ sᴜʙsᴄʀɪʙᴇ ʏᴛ ʀᴀᴍᴅᴀɴɪ ᴏғғɪᴄɪᴀʟ
-https://youtube.com/channel/UCB157jomCne961WzYHpG4ghttps://youtube.com/channel/UCB157jomCne961WzYHpG4gg
+https://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRghttps://youtube.com/channel/UC4mrtQKsM0i31zFrd01OsRg
 `
 Ramdani.sendMessage(from, intro, text, {quoted: ftrolMENU, contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true })
 break
